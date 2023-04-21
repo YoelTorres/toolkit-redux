@@ -1,4 +1,5 @@
 {
+  "homepage": "https://YoelTorres.github.io/toolkit-redux",
   "name": "toolkit-redux",
   "private": true,
   "version": "0.0.0",
@@ -6,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
